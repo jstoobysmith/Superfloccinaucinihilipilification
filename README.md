@@ -1,4 +1,4 @@
-#Superﬂoccinaucinihilipiliﬁcation
+# Superﬂoccinaucinihilipiliﬁcation
 
 This is a code to generate semi-simple extensions of given Lie algebras & representation combinations. It was developed by: 
 Andrew Gomes, Maximillian Ruhdorfer, and Joseph Tooby-Smith
