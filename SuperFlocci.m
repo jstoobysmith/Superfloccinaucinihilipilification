@@ -4800,7 +4800,7 @@ SuperFlocci::input="userg) A reductive Lie algebra e.g. {A2,A1,U1}.\nuser\[Capit
 SuperFlocci::output="A list containing:\n The inputed Lie algebra\n The inputed fermonic reps \n The list of semi-simple extensions \n The list of edges between these extensions \n A collection of timing data \n The date and time that the function was generated.";
 SuperFlocci::description="The main function of our program. This takes the user input, and generates the output data.";
 
-SuperFlocci[userg_,user\[CapitalPhi]_,OptionsPattern[{Checkpoint->False,CheckpointUpFreq->1000,StartFromCheckpoint->True,ClearDataFreq->1000,ProjectionMatrixList-> False,SimpleIdealConstraint-> \[Infinity],DetailedProgressData-> False,ExtendedAlphaCheck-> True}]]:=Module[{user\[CapitalPhi]NF,n,ord,g,\[CapitalPhi]t,FlocciOutput,U1sOnlyBool,algList,edList,testCond,pos,adjust,TotalTimeOfFunction},
+SuperFlocci[userg_,user\[CapitalPhi]_,OptionsPattern[{Checkpoint->False,CheckpointUpFreq->1000,StartFromCheckpoint->True,ClearDataFreq->1000,ProjectionMatrixList-> False,SimpleIdealConstraint-> \[Infinity],DetailedProgressData-> False,ExtendedKappaCheck-> True}]]:=Module[{user\[CapitalPhi]NF,n,ord,g,\[CapitalPhi]t,FlocciOutput,U1sOnlyBool,algList,edList,testCond,pos,adjust,TotalTimeOfFunction},
 TotalTimeOfFunction=AbsoluteTiming[(
 (*We read in optional data to global varibles*)
 Flocci$Checkpoint$FileName=OptionValue[Checkpoint];
@@ -4810,7 +4810,7 @@ Flocci$ProjectionMatrixList=OptionValue[ProjectionMatrixList];
 Flocci$DeleteStoredDataCounter=OptionValue[ClearDataFreq];
 Flocci$SimpleIdealConstraint=OptionValue[SimpleIdealConstraint];
 Flocci$DetailedProgressData=OptionValue[DetailedProgressData];
-Flocci$PerformExtendingChecks=OptionValue[ExtendedAlphaCheck];
+Flocci$PerformExtendingChecks=OptionValue[ExtendedKappaCheck];
 (*We find the rank of the algebra*)
 n=Total[Flocci$Rank[userg]];
 (*First we partition user\[CapitalPhi] if entered in the flat version*)
