@@ -9,8 +9,11 @@ Detailed instructions on how to use our code are given in the corresponding pape
 
 To summarize: 
 - Download the file SuperFlocci.m, and import it into a Mathematica notebook using:
+  
 `Import["SuperFlocci.m"];`
-- Call the SuperFlocci using, e.g. (for the 1 gen SM) 
+- Call the SuperFlocci using, e.g. (for the 1 gen SM)
+  
 `out = SuperFlocci[{A1,A2,U1}, {{1,1,0,1},{0,0,1,-4},{0,0,1,2},{1,0,0,-3},{0,0,0,6},{0,0,0,0}}];`
-- See the output using 
+- See the output using
+  
 `FlocciOutput[out];`
