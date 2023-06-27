@@ -4853,7 +4853,7 @@ edList=Select[edList,MemberQ[pos,#[[1,1]]]&&MemberQ[pos,#[[1,2]]]&]/.Thread[pos-
 ][[1]];
 (*We print the relevent information*)
 FlocciOutput={userg,user\[CapitalPhi],algList,edList,TotalTimeOfFunction,Flocci$TimingPrint,DateString[CurrentDate[]]};
-Print["Evalutation took a time of: ",TotalTimeOfFunction," seconds"];
+Print["Evaluation took a time of: ",TotalTimeOfFunction," seconds"];
 FlocciOutput
 ]
 
