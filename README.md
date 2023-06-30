@@ -1,7 +1,11 @@
 # Superﬂoccinaucinihilipiliﬁcation
 
 This is a code to generate semi-simple extensions of given Lie algebras & representation combinations. It was developed by: 
-Andrew Gomes, Maximillian Ruhdorfer, and Joseph Tooby-Smith
+Andrew Gomes, Maximillian Ruhdorfer, and Joseph Tooby-Smith.
+
+If you use this code please cite:
+
+- A.Gomes, M.Ruhdorfer and J.Tooby-Smith, _Superfloccinaucinihilipilification: Semisimple unifications of any gauge theory_, [arXiv:2306.16439](https://arxiv.org/abs/2306.16439).
 
 ### Running the code.
 
